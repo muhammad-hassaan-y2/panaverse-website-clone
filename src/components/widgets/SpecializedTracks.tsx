@@ -78,14 +78,16 @@ export const SpecializedTracks = () => {
  
 
                  {/* Content Right */}
-                  
+
                  <div className='flex-1 space-y-4 ml-4 px-4 py-6 w-4/12   '>
+                 <h4 className='text-primary font-semibold '>Speacialized programs</h4>
 
                   {
                     ProgramData.map((item, i) => (
                       <div>
-                      
+
                       <div onClick={() => setSelectedItem(item.slug)} key={item.slug} className=' flex gap-x-4 items-center cursor-pointer '>
+
                     <div className='flex-shrink-0 w-36 h-24'>
                       {/*<div className='w-20 h-16 rounded bg-red-400'></div> */}
                       <Image src={item.image} alt={item.header} className=' h-24 rounded-md object-cover' />
@@ -94,8 +96,9 @@ export const SpecializedTracks = () => {
                       
                     
                      </div>
+                     
                      <div>
-                      <h4 className='text-primary font-medium'>Speacialized program</h4>
+                     
                       <p className='font-semibold text-xl'>{item.header}</p>
                        </div>
                        

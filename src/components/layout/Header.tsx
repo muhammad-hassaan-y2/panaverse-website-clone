@@ -28,7 +28,7 @@ const Header = () => {
            <Link href={"/"}>
             <li className="#">Home</li>
             </Link>
-            <Link href={"/courses"}>
+            <Link href={"/https://www.piaic.org/"}>
             <li className="#">Courses</li>
             </Link>
          </ul>

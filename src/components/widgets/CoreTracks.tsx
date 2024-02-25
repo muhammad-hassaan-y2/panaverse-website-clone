@@ -5,12 +5,6 @@ import QuarterBoxes from '@/components/shared/QuarterBoxes'
 import CoreTrackData from '@/components/shared/CoreTrackData'
 
 
-
-
-
-
-
-
 const CoreTracks = () => {
   const header ="Core Courses \n (Common in All Specializations)"
     return (
@@ -19,14 +13,19 @@ const CoreTracks = () => {
         <Wrapper>
 
             {/*Content */}
-             <div className='max-w-screen-md'>
-              <h4 className='text-teal-700 font-bold text-lg mt-4'>Program of Studies</h4>
-              <h2 className={`text-5xl font-bold mt-3 whitespace-pre-line`}>{header}</h2>
-              <p className='text-xl mt-6 text-slate-600'>Every participant of the program will 
+             <div className='max-w-screen-md mt-4 '>
+              <div className='rounded-2xl  w-[800px]  h-52
+                bg-opacity-5   z-0 absolute'></div>
+
+                <div className='ml-1 relative '>
+              <h4 className='text-primary font-bold text-lg  '>Program of Studies</h4>
+              <h2 className={`text-5xl font-bold mt-3 whitespace-pre-line `}>{header}</h2>
+              <p className='text-base mt-6 text-slate-600 '>Every participant of the program will 
               start by
                  completing the following three core courses.</p>
-             
-             <div>
+                 </div>
+
+                 <div className='mt-10'>
                  <Button text={'Learn More'}/> 
                  </div>
 
